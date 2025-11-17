@@ -1,4 +1,6 @@
-# Discord MQTT Bot
+# Warning, This project was vibecoded 
+
+## Discord MQTT Bot
 
 A Discord bot that relays messages from MQTT to Discord users and channels using modern slash commands. Perfect for home automation notifications, IoT alerts, and more!
 
