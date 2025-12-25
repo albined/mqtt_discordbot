@@ -39,9 +39,9 @@ ENV PATH="/opt/venv/bin:$PATH" \
     PYTHONDONTWRITEBYTECODE=1
 
 # Run as non-root user for security
-RUN useradd -m -u 1000 botuser && \
-    chown -R botuser:botuser /app
-USER botuser
+#RUN useradd -m -u 1000 botuser && \
+#    chown -R botuser:botuser /app
+#USER botuser
 
 # Run the bot
 CMD ["python", "bot.py"]
